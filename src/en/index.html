@@ -4,32 +4,279 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CLIBOM - IT consulting and development for nonprofits</title>
-    <link rel="icon" href="../images/clibom-favicon-noir.svg" type="image/svg+xml">
+    <meta name="description"
+          content="CLIBOM supports nonprofits with IT consulting and development services tailored to their needs and constraints.">
+
+    <meta property="og:title" content="CLIBOM - IT consulting and development for nonprofits">
+    <meta property="og:description"
+          content="CLIBOM supports nonprofits with IT consulting and development services tailored to their needs and constraints.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="https://clibom.com/en/">
+
+    <link rel="alternate" hreflang="fr" href="https://clibom.com/fr/">
+    <link rel="alternate" hreflang="en" href="https://clibom.com/en/">
+    <link rel="canonical" href="https://clibom.com/en/">
+
+    <link rel="icon" href="/images/clibom-favicon-noir.svg" type="image/svg+xml">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/css/custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
 </head>
 <body>
-    <nav class="navbar navbar-light bg-white py-3">
+
+<!-- Navbar -->
+<nav class="navbar navbar-dark navbar-clibom navbar-expand-lg fixed-top" aria-label="Main navigation">
+    <div class="container">
+        <a class="navbar-brand" href="/en/" aria-label="CLIBOM - Home">
+            <img src="/images/clibom.svg" alt="CLIBOM" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#approach">Approach</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#framework">Framework</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item ms-lg-3">
+                    <a class="btn-lang" href="/fr/">FR</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main>
+
+    <!-- Home -->
+    <section id="home" class="hero-clibom">
+        <div class="container text-center">
+            <img src="/images/clibom.svg" alt="CLIBOM" class="hero-logo">
+            <p class="lead">Digital support dedicated to nonprofits, with a collaborative approach and no deadline
+                pressure.</p>
+            <a href="#approach" class="btn btn-clibom mt-3">Discover our approach</a>
+        </div>
+    </section>
+
+    <!-- Our approach -->
+    <section id="approach" class="section-clibom section-clibom-alt">
         <div class="container">
-            <a class="navbar-brand" href="/en/">
-                <img src="../images/clibom.svg" alt="CLIBOM" height="40">
-            </a>
-            <a href="/fr/" class="btn btn-outline-secondary btn-sm">FR</a>
+            <div class="text-center">
+                <h2 class="section-heading">Our approach</h2>
+                <p class="section-subheading">Working together, at your pace</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-card">
+                        <i class="bi bi-people feature-icon"></i>
+                        <h3>Co-construction</h3>
+                        <p>A deliberately simple initial brief, enriched together through dialogue to match your real
+                            needs.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-card">
+                        <i class="bi bi-hand-thumbs-up feature-icon"></i>
+                        <h3>Best-effort commitment</h3>
+                        <p>We commit to our involvement and availability, not to rigid deliverables.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-card">
+                        <i class="bi bi-calendar-check feature-icon"></i>
+                        <h3>Flexible planning</h3>
+                        <p>A monthly and quarterly framework with regular check-ins to adjust direction together.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-card">
+                        <i class="bi bi-hourglass-split feature-icon"></i>
+                        <h3>Indicative deadlines</h3>
+                        <p>Deadlines are shared milestones, not constraints. They can shift on either side, with no
+                            penalty.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
+    </section>
 
-    <main class="container py-5">
-        <div class="text-center">
-            <h1>CLIBOM</h1>
-            <p class="lead">IT consulting and development for nonprofits</p>
-            <p>Website under construction.</p>
+    <!-- What we bring -->
+    <section id="services" class="section-clibom">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading">What we bring</h2>
+                <p class="section-subheading">Skills at the service of your projects</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <i class="bi bi-lightbulb feature-icon"></i>
+                        <h3>Consulting</h3>
+                        <p>Choose the right tools and define a digital strategy that fits your resources.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <i class="bi bi-kanban feature-icon"></i>
+                        <h3>Project structuring</h3>
+                        <p>Turn a need into a concrete, prioritised and realistic action plan.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <i class="bi bi-code-slash feature-icon"></i>
+                        <h3>Tool development</h3>
+                        <p>Tailored, simple solutions that address your real needs.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </main>
+    </section>
 
-    <footer class="bg-light py-3 mt-5">
-        <div class="container text-center text-muted">
-            <small>&copy; 2025 CLIBOM</small>
+    <!-- Experience & contexts -->
+    <section id="experience" class="section-clibom section-clibom-alt">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading">Experience &amp; contexts</h2>
+                <p class="section-subheading">Working across diverse environments</p>
+            </div>
+            <div id="carouselExperience" class="carousel slide testimonial-carousel" data-bs-ride="carousel"
+                 data-bs-interval="6000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExperience" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Testimonial 1"></button>
+                    <button type="button" data-bs-target="#carouselExperience" data-bs-slide-to="1"
+                            aria-label="Testimonial 2"></button>
+                    <button type="button" data-bs-target="#carouselExperience" data-bs-slide-to="2"
+                            aria-label="Testimonial 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonial-card text-center">
+                            <i class="bi bi-quote"></i>
+                            <p class="testimonial-quote mt-2">The redesign of our website was carried out in a spirit of
+                                collaboration and attentiveness. Clibom adapted to the club's volunteer-based workflow,
+                                proposed simple solutions and moved at a realistic pace. The result is clear, useful and
+                                easy to maintain day-to-day.</p>
+                            <img src="/images/hce/logo_hce_128.png" alt="Handball Club Erstein"
+                                 class="testimonial-logo mt-3">
+                            <p class="testimonial-author mt-2">Sports Manager</p>
+                            <p class="testimonial-context">Handball Club Erstein</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-card text-center">
+                            <i class="bi bi-quote"></i>
+                            <p class="testimonial-quote mt-2">Coordinating between our member clubs used to be a real
+                                headache. Thanks to a tool designed with us, everything runs more smoothly now.</p>
+                            <p class="testimonial-author mt-3">Example Regional Federation</p>
+                            <p class="testimonial-context">Federative structure &mdash; inter-club coordination</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-card text-center">
+                            <i class="bi bi-quote"></i>
+                            <p class="testimonial-quote mt-2">Clibom's approach fully matches the realities of the
+                                nonprofit and federation world. It is structured, collaborative and pragmatic, with a
+                                genuine understanding of human and organisational constraints. A partnership we look
+                                forward to with confidence.</p>
+                            <img src="https://i0.wp.com/www.grandesthandball.fr/wp-content/uploads/2022/08/cropped-FFHB_LOGO_LIGUE_GRAND_EST_FD_BL_Q.png?fit=1000%2C379&ssl=1"
+                                 alt="Ligue Grand Est de Handball" class="testimonial-logo mt-3">
+                            <p class="testimonial-author mt-2">Chair of the Digital Committee</p>
+                            <p class="testimonial-context">Ligue Grand Est de Handball</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExperience"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExperience"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
-    </footer>
+    </section>
+
+    <!-- Working framework -->
+    <section id="framework" class="section-clibom">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading">Working framework</h2>
+                <p class="section-subheading">Clear terms, from the start</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <ul class="cadre-list">
+                        <li><i class="bi bi-calendar-event"></i><strong>No-pressure requests</strong> &mdash; requests
+                            can come at any time, with no urgency imposed on either side.
+                        </li>
+                        <li><i class="bi bi-bar-chart"></i><strong>Limited capacity</strong> &mdash; we work on a small
+                            number of projects to ensure our availability.
+                        </li>
+                        <li><i class="bi bi-receipt"></i><strong>Per-project billing</strong> &mdash; billing terms are
+                            agreed together at the start of each engagement.
+                        </li>
+                        <li><i class="bi bi-shield-check"></i><strong>No emergency support</strong> &mdash; we do not
+                            handle last-minute requests.
+                        </li>
+                        <li><i class="bi bi-eye"></i><strong>Transparent terms</strong> &mdash; everything is clearly
+                            defined before we start, with no surprises.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section-clibom section-clibom-alt">
+        <div class="container text-center">
+            <h2 class="section-heading">Contact</h2>
+            <p class="section-subheading">Let's talk to see if we can work together</p>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <p>A 30-minute introductory call, no commitment, to discuss your project or needs and see if our way
+                        of working matches your expectations.</p>
+                    <p class="mt-4">
+                        <a href="https://calendly.com/valentin-metz-clibom/onboarding" class="btn btn-clibom"
+                           target="_blank" rel="noopener">Book a call</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer-clibom">
+    <div class="container text-center">
+        <small>&copy; <span id="year"></span> CLIBOM </small>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
 </html>

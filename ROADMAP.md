@@ -1,38 +1,42 @@
 # ROADMAP - Refonte clibom.com
 
 ## Phase 1 — Nettoyage et fondations techniques
-- [ ] Supprimer l'ancien contenu de `src/` (HTML, JS, SASS, anciennes images)
-- [ ] Conserver les logos/favicons CLIBOM (SVG)
-- [ ] Supprimer les scripts FTP (`ftpUpdate.sh`, `ftpUpdate.py`, `.env`)
-- [ ] Mettre en place la structure de dossiers (`src/fr/`, `src/en/`, `src/assets/`)
-- [ ] Intégrer Bootstrap 5 via CDN
-- [ ] Créer le fichier CSS custom de surcharge (`assets/css/custom.css`)
-- [ ] Vérifier que Docker + Makefile fonctionnent avec la nouvelle structure
+- [x] Supprimer l'ancien contenu de `src/` (HTML, JS, SASS, anciennes images)
+- [x] Conserver les logos/favicons CLIBOM (SVG)
+- [x] Supprimer les scripts FTP (`ftpUpdate.sh`, `ftpUpdate.py`, `.env`)
+- [x] Mettre en place la structure de dossiers (`src/fr/`, `src/en/`, `src/assets/`)
+- [x] Intégrer Bootstrap 5 via CDN
+- [x] Créer le fichier CSS custom de surcharge (`assets/css/custom.css`)
+- [x] Vérifier que Docker + Makefile fonctionnent avec la nouvelle structure
 
 ## Phase 2 — Template de base
-- [ ] Créer le layout HTML commun (head, meta, favicon)
-- [ ] Créer le header / navbar (logo, navigation, sélecteur de langue FR/EN)
-- [ ] Créer le footer (mentions légales, contact, liens)
-- [ ] Définir la charte graphique CSS (couleurs, typographie, espacements)
-- [ ] Valider le responsive (mobile, tablette, desktop)
+- [x] Créer le layout HTML commun (head, meta, favicon, Open Graph, hreflang)
+- [x] Créer le header / navbar (logo, navigation par ancres, sélecteur de langue FR/EN)
+- [x] Créer le footer minimaliste (copyright + email)
+- [x] Définir la charte graphique CSS (couleurs, espacements, sections, boutons CTA)
+- [x] Intégrer Bootstrap JS bundle via CDN (hamburger mobile)
+- [x] Valider le responsive (mobile, tablette, desktop)
 
-## Phase 3 — Pages en français
-- [ ] **Accueil** (`fr/index.html`) : accroche, proposition de valeur, appel à l'action
-- [ ] **Compétences** (`fr/competences.html`) : présentation marketing des savoir-faire
-- [ ] **Références** (`fr/references.html`) : projets réalisés, témoignages
-- [ ] **Contact** (`fr/contact.html`) : informations de contact
-- [ ] Redirection racine (`src/index.html` → `/fr/`)
+## Phase 3 — Contenu des sections en français (`fr/index.html`)
+- [x] **#accueil** : accroche, proposition de valeur, CTA
+- [x] **#approche** : co-construction, engagement de moyens, planification souple, délais indicatifs
+- [x] **#apports** : conseil, structuration de projets, développement d'outils
+- [x] **#experiences** : clubs, commissions, associations, structures fédératives
+- [x] **#cadre** : interventions planifiées, volumes limités, facturation mensuelle, pas d'urgence, transparence
+- [x] **#contact** : prise de contact cadrée, email
 
-## Phase 4 — Pages en anglais
-- [ ] **Home** (`en/index.html`) : traduction de l'accueil
-- [ ] **Skills** (`en/skills.html`) : traduction des compétences
-- [ ] **References** (`en/references.html`) : traduction des références
-- [ ] **Contact** (`en/contact.html`) : traduction du contact
-- [ ] Vérifier la cohérence des liens de navigation inter-langues
+## Phase 4 — Contenu des sections en anglais (`en/index.html`)
+- [x] **#home** : traduction de l'accroche et CTA
+- [x] **#approach** : co-construction, best-effort commitment, flexible planning, indicative deadlines
+- [x] **#services** : consulting, project structuring, tool development
+- [x] **#experience** : clubs, committees, associations, federative structures
+- [x] **#framework** : pre-planned interventions, limited capacity, monthly billing, no emergency, transparent terms
+- [x] **#contact** : traduction du contact
+- [x] Vérifier la cohérence des liens de navigation inter-langues
 
 ## Phase 5 — Finitions
-- [ ] SEO : balises meta (title, description, og:), sitemap.xml, robots.txt
-- [ ] Accessibilité : attributs alt, aria, contrastes, structure sémantique
+- [ ] SEO : sitemap.xml, robots.txt
+- [ ] Accessibilité : contrastes, structure sémantique
 - [ ] Performance : optimisation des images, vérification du poids des pages
 - [ ] Validation W3C des pages HTML
 - [ ] Tests cross-navigateurs (Chrome, Firefox, Safari, mobile)

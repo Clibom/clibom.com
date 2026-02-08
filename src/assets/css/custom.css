@@ -1,5 +1,330 @@
+/* ============================================================
+   CLIBOM — Design System
+   ============================================================ */
+
+/* --- Variables --- */
 :root {
     --clibom-primary: #7da456;
     --clibom-primary-light: #a2c750;
     --clibom-primary-dark: #345e63;
+
+    --clibom-white: #ffffff;
+    --clibom-gray-light: #f8f9fa;
+    --clibom-gray-text: #333333;
+
+    --clibom-primary-light-hover: #93b847;
+    --clibom-primary-hover: #6e9349;
+
+    --clibom-section-py: 5rem;
+    --clibom-navbar-height: 72px;
+}
+
+/* --- Global --- */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--clibom-navbar-height);
+}
+
+body {
+    color: var(--clibom-gray-text);
+    padding-top: var(--clibom-navbar-height);
+}
+
+/* ============================================================
+   Navbar
+   ============================================================ */
+.navbar-clibom {
+    background-color: var(--clibom-primary-dark);
+    min-height: var(--clibom-navbar-height);
+}
+
+.navbar-clibom .navbar-brand img {
+    height: 40px;
+}
+
+.navbar-clibom .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: color 0.2s;
+}
+
+.navbar-clibom .nav-link:hover,
+.navbar-clibom .nav-link:focus {
+    color: var(--clibom-primary-light);
+}
+
+.navbar-clibom .nav-link.active {
+    color: var(--clibom-white);
+}
+
+.btn-lang {
+    color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 0.25rem 0.75rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-lang:hover,
+.btn-lang:focus {
+    background-color: var(--clibom-white);
+    color: var(--clibom-primary-dark);
+}
+
+/* ============================================================
+   Sections
+   ============================================================ */
+.section-clibom {
+    padding: var(--clibom-section-py) 0;
+}
+
+.section-clibom-alt {
+    background-color: var(--clibom-gray-light);
+}
+
+/* --- Hero --- */
+.hero-clibom {
+    padding: 6rem 0;
+}
+
+.hero-logo {
+    height: 180px;
+    width: auto;
+    margin-bottom: 1.5rem;
+}
+
+.hero-clibom .lead {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* --- Section headings --- */
+.section-heading {
+    color: var(--clibom-primary-dark);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.section-subheading {
+    color: var(--clibom-primary);
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+
+/* ============================================================
+   Buttons CTA
+   ============================================================ */
+.btn-clibom {
+    background-color: var(--clibom-primary-light);
+    color: var(--clibom-white);
+    border: none;
+    font-weight: 600;
+    padding: 0.6rem 1.5rem;
+    border-radius: 0.375rem;
+    transition: background-color 0.2s;
+}
+
+.btn-clibom:hover,
+.btn-clibom:focus {
+    background-color: var(--clibom-primary-light-hover);
+    color: var(--clibom-white);
+}
+
+.btn-clibom-outline {
+    background-color: transparent;
+    color: var(--clibom-primary);
+    border: 2px solid var(--clibom-primary);
+    font-weight: 600;
+    padding: 0.6rem 1.5rem;
+    border-radius: 0.375rem;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-clibom-outline:hover,
+.btn-clibom-outline:focus {
+    background-color: var(--clibom-primary);
+    color: var(--clibom-white);
+}
+
+/* ============================================================
+   Feature cards
+   ============================================================ */
+.feature-card {
+    padding: 1.5rem;
+    height: 100%;
+    text-align: center;
+}
+
+.feature-icon {
+    color: var(--clibom-primary-light);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.feature-card h3 {
+    color: var(--clibom-primary-dark);
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.feature-card p {
+    margin-bottom: 0;
+}
+
+/* --- Cadre list icons --- */
+.cadre-list .bi {
+    color: var(--clibom-primary);
+    font-size: 1.1rem;
+    margin-right: 0.5rem;
+}
+
+/* --- Cadre list --- */
+.cadre-list {
+    list-style: none;
+    padding-left: 0;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.cadre-list li {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.cadre-list li:last-child {
+    border-bottom: none;
+}
+
+/* --- Contact section --- */
+.contact-email {
+    color: var(--clibom-primary-dark);
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.contact-email:hover,
+.contact-email:focus {
+    color: var(--clibom-primary-light);
+}
+
+/* ============================================================
+   Testimonial carousel
+   ============================================================ */
+.testimonial-carousel {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial-card {
+    background-color: var(--clibom-white);
+    border-radius: 0.75rem;
+    padding: 2.5rem;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.testimonial-card .bi-quote {
+    font-size: 2rem;
+    color: var(--clibom-primary-light);
+}
+
+.testimonial-quote {
+    font-style: italic;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.testimonial-author {
+    font-weight: 700;
+    color: var(--clibom-primary-dark);
+}
+
+.testimonial-logo {
+    height: 60px;
+    width: auto;
+}
+
+.testimonial-context {
+    font-size: 0.9rem;
+    color: var(--clibom-primary);
+}
+
+.testimonial-carousel .carousel-control-prev-icon,
+.testimonial-carousel .carousel-control-next-icon {
+    filter: invert(40%) sepia(15%) saturate(1200%) hue-rotate(60deg) brightness(90%);
+}
+
+.testimonial-carousel .carousel-indicators [data-bs-target] {
+    background-color: var(--clibom-primary);
+}
+
+/* ============================================================
+   Footer
+   ============================================================ */
+.footer-clibom {
+    background-color: var(--clibom-primary-dark);
+    color: rgba(255, 255, 255, 0.7);
+    padding: 2rem 0;
+}
+
+.footer-clibom a {
+    color: var(--clibom-primary-light);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-clibom a:hover,
+.footer-clibom a:focus {
+    color: var(--clibom-white);
+}
+
+/* ============================================================
+   Responsive
+   ============================================================ */
+@media (max-width: 991.98px) {
+    .section-clibom {
+        padding: 3.5rem 0;
+    }
+
+    .hero-clibom {
+        padding: 4rem 0;
+    }
+
+    .navbar-clibom .navbar-collapse {
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .navbar-clibom .nav-link {
+        padding: 0.6rem 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .hero-clibom {
+        padding: 3rem 0;
+    }
+
+    .hero-logo {
+        height: 120px;
+    }
+
+    .feature-icon {
+        font-size: 2rem;
+    }
+
+    .testimonial-card {
+        padding: 1.5rem;
+    }
 }
