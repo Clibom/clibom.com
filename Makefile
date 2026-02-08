@@ -25,8 +25,8 @@ start-clibom:
 stop-clibom:
 	$(DOCKER_COMPOSE) down
 
-connect-clibom: ## Connect on a remote bash terminal on the database container
-	$(DOCKER_COMPOSE) exec php bash
+connect-clibom: ## Connect on a remote bash terminal on the Apache container
+	$(DOCKER_COMPOSE) exec apache bash
 
 default: help
 
