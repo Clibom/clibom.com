@@ -35,14 +35,14 @@
 - [x] Vérifier la cohérence des liens de navigation inter-langues
 
 ## Phase 5 — Finitions
-- [ ] SEO : sitemap.xml, robots.txt
-- [ ] Accessibilité : contrastes, structure sémantique
-- [ ] Performance : optimisation des images, vérification du poids des pages
-- [ ] Validation W3C des pages HTML
+- [x] SEO : sitemap.xml, robots.txt
+- [x] Accessibilité : contrastes, structure sémantique
+- [x] Performance : optimisation des images, vérification du poids des pages
+- [x] Validation W3C des pages HTML
 - [ ] Tests cross-navigateurs (Chrome, Firefox, Safari, mobile)
 
 ## Phase 6 — CI/CD et déploiement
-- [ ] Créer le workflow GitHub Actions pour le déploiement automatique
+- [x] Créer le workflow GitHub Actions pour le déploiement automatique
 - [ ] Configurer l'environnement cible (hébergement OVH ou autre)
 - [ ] Tester le pipeline complet (push → deploy)
 - [ ] Mise en production
