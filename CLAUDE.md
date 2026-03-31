@@ -92,3 +92,14 @@ Le logo utilise un dégradé radial de verts. La charte couleur du site s'appuie
 - **Primaire foncé** : `#345e63` (vert sarcelle — headers, fonds sombres, footer)
 - **Neutres** : blanc (`#ffffff`), gris clair (`#f8f9fa`), gris texte (`#333333`)
 - Les déclinaisons et nuances doivent rester dans le spectre vert du logo, pas d'autres couleurs vives.
+
+---
+
+## Convention de versioning
+
+Les versions du site suivent le format `vX.Y.Z "NomCapitale"`.
+Le nom de version est toujours le nom d'une **capitale mondiale**, choisie par ordre alphabétique ou thématique, sans répétition.
+
+| Version | Nom     |
+|---------|---------|
+| v1.0.0  | Paris   |
