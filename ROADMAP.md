@@ -39,10 +39,10 @@
 - [x] Accessibilité : contrastes, structure sémantique
 - [x] Performance : optimisation des images, vérification du poids des pages
 - [x] Validation W3C des pages HTML
-- [ ] Tests cross-navigateurs (Chrome, Firefox, Safari, mobile)
+- [x] Tests cross-navigateurs (Chrome, Firefox, Safari, mobile)
 
 ## Phase 6 — CI/CD et déploiement
 - [x] Créer le workflow GitHub Actions pour le déploiement automatique
-- [ ] Configurer l'environnement cible (hébergement OVH ou autre)
-- [ ] Tester le pipeline complet (push → deploy)
-- [ ] Mise en production
+- [x] Configurer l'environnement cible (hébergement OVH ou autre)
+- [x] Tester le pipeline complet (push → deploy)
+- [x] Mise en production
