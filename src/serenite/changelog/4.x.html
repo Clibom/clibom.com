@@ -1,0 +1,131 @@
+
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="./changelog.css"/>
+    <link rel="icon" href="../../images/clibom-favicon-noir.svg" type="image/x-icon">
+    <title>Serenite - Journal de Version</title>
+</head>
+<header class="-fixed">
+    <h1>Serenite - Journal de Version</h1>
+</header>
+<div class="wrap-content">
+    <article class="changelog">
+        <section class="version -planned">
+            <div class="header">
+                <h2 class="version-num">4.4.0</h2>
+                <time class="datetime" datetime="05-05-2024">05-05-2024</time>
+            </div>
+            <section>
+                <div class="label -s -blue">Nouveau</div>
+                <ul>
+                    L'administrateur peut maintenant supprimer les rencontres d'un utilisateur.
+                    L'administrateur peut créer les licences manquantes ou non importées automatiquement.
+                    L'administrateur peut consulter une fiche d'information générale concernant un utilisateur.
+                    L'administrateur/formateur peut maintenant voir le détail des enquêtes par utilisateur.
+                    L'administrateur/statisticien peut maintenant voir les statistiques des clubs.
+                    L'administrateur/statisticien peut maintenant voir le détails des enquêtes par équipes.
+                </ul>
+            </section>
+            <section>
+                <div class="label -s -yellow">Technique</div>
+                <ul>
+                    <li>Ajout d'une date de création de l'enquête en base de données.</li>
+                    <li>Création d'un portail support dédié <a href=https://clibom.atlassian.net/servicedesk/customer/portal/2/group/-1"> : ICI</a>.</li>
+                    <li>Création d'une base documentaire dédiée <a href=https://clibom.atlassian.net/servicedesk/customer/portal/2"> : ICI</a>.</li>
+                </ul>
+            </section>
+            <section>
+                <div class="label -s -bg" style="background: indigo;">Correction</div>
+                <ul>
+                    <li>[Création de rencontre] Gestion du code de rencontre au format normé.</li>
+                    <li>[Création de rencontre] La création de rencontre possède maintenant un parcours unique qui permet de recommencer.</li>
+                    <li>[Création de rencontre] Les rencontres créées possédait le même recevant et le même visiteur.</li>
+                    <li>[Apple] Les étoiles de notation ont été remplacés par une barre de selection propre aux produits Apple.</li>
+                </ul>
+            </section>
+        </section>
+        <section class="version -planned">
+            <div class="header">
+                <h2 class="version-num">4.3.0</h2>
+                <time class="datetime" datetime="12-02-2024">12-02-2024</time>
+            </div>
+            <section>
+                <div class="label -s -blue">Nouveau</div>
+                <ul>
+                    <li>L'utilisateur peut maintenant voir sur quelle version il est connecté dans le menu latéral gauche.</li>
+                    <li>L'utilisateur administrateur peut maintenant rechercher et afficher les enquêtes par arbitre.</li>
+                </ul>
+            </section>
+            <section>
+                <div class="label -s -yellow">Technique</div>
+                <ul>
+                    <li>[RGPD] Le mécanisme complet de cryptage des données personnelles a été mis à jour.</li>
+                    <li>[RGPD] Le mécanisme complet de suivi des modifications de données personnelles a été mis à jour.</li>
+                    <li>[RGPD] Un service automatisé de suppression et d'anonymisation des comptes utilisateurs est disponible.</li>
+                    <li>Les utilisateurs administrateurs n'ont plus besoin d'avoir une licence pour être créé.</li>
+                    <li>Une liaison technique est maintenant effectué entre les clubs et leurs bassins territoriaux.</li>
+                </ul>
+            </section>
+            <section>
+                <div class="label -s -bg" style="background: indigo;">Correction</div>
+                <ul>
+                    <li>Ajout d'une gestion des erreurs à la connexion de l'utilisateur (mot de passe incorrect, plateforme non disponible, etc...).</li>
+                </ul>
+            </section>
+        </section>
+        <section class="version -planned">
+            <div class="header">
+                <h2 class="version-num">4.2.0</h2>
+                <time class="datetime" datetime="25-01-2024">25-01-2024</time>
+            </div>
+            <section>
+                <div class="label -s -blue">Nouveau</div>
+                <ul>
+                    <li>Ajout d'un menu latéral permettant de se déconnecter et d'accéder à la création de rencontre.</li>
+                    <li>L'utilisateur peut maintenant créer une rencontre dans la nouvelle interface depuis le site
+                        web.</li>
+                    <li>L'utilisateur peut maintenant créer une rencontre dans la nouvelle interface depuis son
+                        smartphone.</li>
+                    <li>Le champ de mot de passe est maintenant caché lors de la connexion.</li>
+                </ul>
+            </section>
+            <section>
+                <div class="label -s -bg" style="background: indigo;">Correction</div>
+                <ul>
+                    <li>Le commentaire est limité à 150 caractères.</li>
+                    <li>Les équipes affichées dans le résumé de l'enquête sont cohérentes.</li>
+                </ul>
+            </section>
+        </section>
+        <section class="version -planned">
+            <div class="header">
+                <h2 class="version-num">4.1.0</h2>
+                <time class="datetime" datetime="11-01-2024">11-01-2024</time>
+            </div>
+            <section>
+                <div class="label -s -blue">Nouveau</div>
+                <ul>
+                    <li>L'utilisateur peut maintenant créer son compte dans la nouvelle interface.</li>
+                    <li>L'utilisateur peut maintenant effectuer la procédure de mise à jour du mot de passe dans la
+                        nouvelle interface
+                    .</li>
+                </ul>
+            </section>
+        </section>
+        <section class="version -planned">
+            <div class="header">
+                <h2 class="version-num">4.0.0</h2>
+                <time class="datetime" datetime="06-01-2024">06-01-2024</time>
+            </div>
+            <section>
+                <div class="label -s -blue">Nouveau</div>
+                <ul>
+                    <li>Nouvelle interface graphique et ergonomie.</li>
+                    <li>L'utilisateur n'a plus besoin de saisir son numéro de licence pour se connecter.</li>
+                    <li>À la première connexion, l'utilisateur doit indiquer s'il est adulte ou non afin de ne pas
+                        répondre à la question 4.</li>
+                </ul>
+            </section>
+        </section>
+    </article>
+</div>
