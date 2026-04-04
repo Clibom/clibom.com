@@ -103,3 +103,4 @@ Le nom de version est toujours le nom d'une **capitale mondiale**, choisie par o
 | Version | Nom     |
 |---------|---------|
 | v1.0.0  | Paris   |
+| v1.1.0  | Quito   |
