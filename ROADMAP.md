@@ -46,3 +46,11 @@
 - [x] Configurer l'environnement cible (hébergement OVH ou autre)
 - [x] Tester le pipeline complet (push → deploy)
 - [x] Mise en production
+
+## Phase 7 — Mesure et conformité
+- [x] Choisir et intégrer un outil d'analytics (Google Analytics 4 — G-DJVJJGC0XE)
+- [x] Intégrer une bannière d'acceptation des cookies conforme RGPD (FR + EN) — vanilla-cookieconsent v3.0.1 auto-hébergé
+- [x] S'assurer que l'analytics ne se charge qu'après consentement (Consent Mode v2, denied par défaut)
+
+## Post-lancement
+- [x] Bouton "Prendre rendez-vous" (Calendly) dans le hero — FR + EN
