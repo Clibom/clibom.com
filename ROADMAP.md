@@ -1,4 +1,5 @@
 # ROADMAP - Refonte clibom.com
+> Version actuelle : **v1.1.0 "Quito"**
 
 ## Phase 1 — Nettoyage et fondations techniques
 - [x] Supprimer l'ancien contenu de `src/` (HTML, JS, SASS, anciennes images)
